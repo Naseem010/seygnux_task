@@ -1,0 +1,70 @@
+.brands{
+    background-image: url(../../../Assets/img2.jpg);
+    font-family: 'Manrope';
+}
+.brands-header{
+margin-left: 200px;
+margin-top: 100px;
+padding: 100px 0 0 0;
+color: #fff;
+
+}
+.brands-header p{
+    font-size: small;
+}
+.brands-bar{
+    height: 5px;
+    width :35px;
+background-color: grey;
+margin-left: 200px;
+margin-top: 60px;
+margin-bottom: 60px;
+}
+.brands-company{
+    display: flex;
+margin-left: 200px;
+color: grey;
+padding-bottom: 100px;
+
+}
+.brands-company p{
+    margin-right: 70px;
+}
+.p1{
+    font-family:'Satisfy' ;
+    font-size:large;
+}
+.p2,.p6{
+    font-size: large;
+}
+.p3,.p5{
+    font-family: 'EB+Garamond';
+    font-size: large;
+
+}
+.p4{
+    font-family: 'Shantell+Sans';
+    font-size: large;
+}
+@media screen and (max-width:900px) {
+    .brands-header{
+        margin-left: 100px;
+        margin-top: 50px;
+        padding: 50px 0 0 0;
+        }
+        .brands-bar{
+            width :25px;
+        margin-left: 100px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        }
+        .brands-company{
+        margin-left: 100px;
+        padding-bottom: 50px;
+        flex-wrap: wrap;
+        
+        }
+        .brands-company p{
+            margin-right: 35px;
+        }
+}

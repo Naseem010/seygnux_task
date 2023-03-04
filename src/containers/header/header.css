@@ -1,0 +1,36 @@
+.header{
+    height: 500px;
+    /* width: 100%; */
+    
+  background-image: url('../../../Assets/img1.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+display: flex;
+justify-content: flex-start;
+align-items: center;
+}
+.header_content{
+  color: #ffff;
+  font-family:'Manrope';
+  margin-left: 200px;
+}
+.header_content h1{
+  width: 200px;
+  /* font-weight: bolder; */
+}
+.header_content p{
+  width: 40%;
+  font-weight: 100;
+  font-size: small;
+}
+@media screen and (max-width:750px) {
+  .header_content{
+    margin-left: 100px;
+  }
+  .header_content p{
+    width: 50%;
+    font-weight: 100;
+    font-size: small;
+    margin-top: 20px;
+  }
+}

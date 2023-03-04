@@ -1,0 +1,38 @@
+.footer{
+    color: #fff;
+    font-family: 'Manrope';
+}
+.footer_blue{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(0,3,36);
+    background: linear-gradient(90deg, rgba(0,3,36,1) 0%, rgba(9,81,121,1) 23%, rgba(0,212,255,1) 82%);
+    height: 120px;
+}
+.footer_blue button{
+    color:black;
+    background-color: #fff;
+    border: none;
+    margin-left: 60px;
+    margin-bottom: 20px;
+    
+}
+.footer_black{
+    background-color: black;
+ text-align: center;
+ /* height: 120px; */
+ padding: 20px;
+}
+.footer_black p{
+    font-size: smaller
+}
+.footer_black-media{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.footer_black-media p{
+    margin-right: 30px;
+    font-size: smaller;
+}

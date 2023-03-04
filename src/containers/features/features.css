@@ -1,0 +1,40 @@
+.features{
+    font-family: 'Manrope';
+margin: 100px 200px 100px 200px;
+}
+.features-header{
+margin-bottom: 70px;
+}
+.features-content{
+    display: flex;
+    flex-direction: row;
+
+}
+.features-content_1{
+    margin-right: 70px;
+}
+.features-content_1 h3{
+    margin-bottom: 10px;
+}
+button{
+    margin-top: 20px;
+    background-color: black;
+    color: #ffff;
+    height: 30px;
+    width: 100px;
+    border-radius:10px
+}
+.features-bar{
+    height: 3px;
+    width: 25px;
+    background-color: black;
+    margin-bottom: 8px;
+}
+@media screen and (max-width:900px){
+    .features{
+    margin: 50px 100px 50px 100px;
+    }
+    .features-content_1{
+        margin-right: 40px;
+    }
+}
